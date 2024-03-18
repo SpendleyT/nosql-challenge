@@ -29,7 +29,7 @@ The magazine editors have some requested modifications for the database before y
 <ol>
 <li>An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:</li>
 
-<span style:"bgcolor: grey; margin: 50px;">{
+<span style="bgcolor: grey; margin: 50px;">{
         "BusinessName":"Penang Flavours",
         "BusinessType":"Restaurant/Cafe/Canteen",
         "BusinessTypeID":"",
@@ -66,6 +66,7 @@ The magazine editors have some requested modifications for the database before y
     <li>Use update_many to convert latitude and longitude to decimal numbers.</li>
     <li>Use update_many to convert RatingValue to integer numbers.</li>
     </ul>
+</ol>
 
 <h3>Part 3: Exploratory Analysis</h3>
 <p>Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
@@ -79,7 +80,8 @@ Some notes to be aware of while you are exploring the dataset:
         <li>Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup before converting ratings to integers.</li>
         </ul>
     <li>The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.</li>
-
+    </ul>
+    
 <p>Use the following questions to explore the database, and find the answers, so you can provide them to the magazine editors.</p>
 
 Unless otherwise stated, for each question:
